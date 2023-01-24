@@ -1,0 +1,142 @@
+.BlogBox{
+    max-width: 70vw;
+    margin: auto;
+    
+}
+.blogDetail img{
+    height: 50vh;
+    width: 100%;
+}
+.bTitle{
+    padding: inherit;
+    display: contents;
+}
+.work-btn{
+    display: block;
+    /* width: 14rem; */
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    margin:auto;
+    padding: 12px 84px;
+    border: 2px solid linear-gradient(133.25deg, #F5C20B 1%, #FE521C 120.29%);
+    border-radius: 9px;
+    background: linear-gradient(133.25deg, #F5C20B 1%, #FE521C 120.29%);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.t-white a{
+    color: white;
+}
+
+.btn-sm{
+    width: 50%;
+   
+}
+.btn-sm a{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.howicoach{
+    width: 100vw;
+}
+
+.close{
+    font-size: 1.5rem;
+    color: white;
+}
+.close:hover{
+    font-size: 1rem;
+    color: white;
+}
+
+
+.page-img img{
+    width: 100%;
+    height: auto;
+    border-radius: 0.7rem !important;
+}
+
+.cards{
+    display: flex;
+}
+
+.cards p{
+    margin: 12px;
+}
+.card-h1{
+    max-width: 60%;
+    margin: auto;
+}
+
+
+
+.card-row{
+    /* display: flex; */
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.para{
+    font-size: 1.1rem;
+    padding: 9px 0px;
+}
+
+.coaching h4{
+    color: #8E1E35;
+    font-size: 1.7rem;
+    
+}
+
+.coaching h5{
+    font-size: 1.2rem;
+}
+
+#Selector{
+    max-width: 50%;
+    margin: 12px auto;
+}
+.link a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.mt-4{
+    margin-top: 4px;
+}
+
+.mb-4{
+    margin-bottom: 4px;
+}
+
+.m-18{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+@media  screen and (max-width:954px) {
+    .close{
+        font-size: 1rem;
+    }
+    #Selector{
+        display: flex;
+        justify-content: center;
+        margin-top: 12px;
+    }
+    
+  
+}
+
+@media  screen and (max-width:688px) {
+    .cards{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

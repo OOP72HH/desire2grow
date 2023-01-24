@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_card_cards",
+  "info": {
+    "displayName": "card",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cards": {
+      "type": "richtext",
+      "default": "card"
+    }
+  }
+}

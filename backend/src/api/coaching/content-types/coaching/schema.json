@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "coachings",
+  "info": {
+    "singularName": "coaching",
+    "pluralName": "coachings",
+    "displayName": "coaching"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

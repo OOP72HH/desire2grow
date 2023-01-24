@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_price_price_cards",
+  "info": {
+    "displayName": "price-card",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "pricing": {
+      "type": "richtext"
+    }
+  }
+}
